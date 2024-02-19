@@ -21,6 +21,8 @@
 # 镜像站
 DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,mirrors
+DOMAIN-KEYWORD,gitmirror
+DOMAIN-KEYWORD,ghproxy
 
 # Google
 DOMAIN,xn--ngstr-lra8j.com
