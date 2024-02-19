@@ -55,3 +55,7 @@ DOMAIN-SUFFIX,toolbarqueries.google.com
 DOMAIN-SUFFIX,tools.google.com
 DOMAIN-SUFFIX,tools.l.google.com
 DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+
+# 个人网站域名
+DOMAIN-KEYWORD,mtian
+DOMAIN-KEYWORD,mengtn
