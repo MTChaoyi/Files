@@ -1,0 +1,5 @@
+# 自用额外国内规则
+
+# 镜像站
+DOMAIN-KEYWORD,mirror
+DOMAIN-KEYWORD,mirrors
