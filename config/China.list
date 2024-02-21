@@ -59,3 +59,9 @@ DOMAIN-SUFFIX,www-googletagmanager.l.google.com
 # 个人网站域名
 DOMAIN-KEYWORD,mtian
 DOMAIN-KEYWORD,mengtn
+
+# vscode
+DOMAIN-KEYWORD,ms-vscode
+
+# 蓝奏云
+DOMAIN-KEYWORD,lanzou
