@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Maple-UI;
+    src: url('./files/Maple-UI.ttf');
+}
+
+@font-face {
+    font-family: Maple-UI-Bold;
+    src: url('./files/Maple-UI-Bold.ttf');
+}
