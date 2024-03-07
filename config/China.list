@@ -26,7 +26,7 @@ DOMAIN-KEYWORD,ghproxy
 
 # Google
 DOMAIN,xn--ngstr-lra8j.com
-DOMAIN,services.googleapis.cn
+DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,alt1-mtalk.google.com
