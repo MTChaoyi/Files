@@ -100,4 +100,4 @@ DOMAIN-SUFFIX,b.aivencloud.com
 # codeium
 DOMAIN,server.codeium.com
 
-DOMAIN-SUFFIX,linux.do
+# DOMAIN-SUFFIX,linux.do
