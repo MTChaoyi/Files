@@ -6,6 +6,9 @@ on:
       - main # 在 main 分支推送时触发
   workflow_dispatch: # 手动触发
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,7 +16,7 @@ jobs:
     steps:
       # Step 1: 检出代码
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Step 2: 一键安装 sing-box
       - name: Install sing-box
@@ -24,7 +27,7 @@ jobs:
       # Step 3: 查找并编译 JSON 文件为 SRS 文件
       - name: Convert JSON files to SRS
         run: |
-          for file in $(find ./Files/config/sing-box -name '*.json'); do
+          for file in $(find ./config/sing-box -name '*.json'); do
             # 使用 sing-box 将 JSON 文件编译为 SRS
             output_file="${file%.json}.srs"
             sing-box rule-set compile --output "$output_file" "$file"
@@ -34,8 +37,8 @@ jobs:
       # Step 4: 提交生成的 SRS 文件
       - name: Push changes
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Auto convert JSON files to SRS"
           git push
