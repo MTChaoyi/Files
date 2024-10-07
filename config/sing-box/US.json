@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain_suffix": [
+                "exhentai.org",
+                "e-hentai.org",
+                "e-hentaidb.com",
+                "popai.pro"
+            ]
+        }
+    ]
+}
