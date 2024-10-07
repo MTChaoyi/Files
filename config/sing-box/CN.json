@@ -4,9 +4,12 @@
         {
             "domain": [
                 "xn--ngstr-lra8j.com",
-                "server.codeium.com"
+                "server.codeium.com",
+                "ghp.ci"
             ],
             "domain_suffix": [
+                "linux.do",
+                "mtian.net",
                 "265.com",
                 "2mdn.net",
                 "alt1-mtalk.google.com",
@@ -35,11 +38,9 @@
                 "tools.google.com",
                 "tools.l.google.com",
                 "www-googletagmanager.l.google.com",
-                "smtp",
                 "mongodb.com",
                 "mongodb.net",
-                "b.aivencloud.com",
-                "linux.do"
+                "b.aivencloud.com"
             ],
             "domain_regex": [
                 "(Subject|HELO|SMTP)",
@@ -50,27 +51,9 @@
                 "(.+\\.|^)(360|so)\\.(cn|com)"
             ],
             "domain_keyword": [
-                "mirror",
-                "mirrors",
-                "gitmirror",
-                "ghproxy",
-                "mtian",
                 "ms-vscode",
                 "lanzou",
                 "aria2"
-            ],
-            "process_name": [
-                "Folx.exe",
-                "NetTransport.exe",
-                "Thunder.exe",
-                "Transmission.exe",
-                "uTorrent.exe",
-                "WebTorrent.exe",
-                "WebTorrent Helper.exe",
-                "qbittorrent.exe",
-                "Weiyun.exe",
-                "baidunetdisk.exe",
-                "DownloadService.exe"
             ]
         }
     ]

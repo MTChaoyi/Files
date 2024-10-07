@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "process_name": [
+                "Folx.exe",
+                "NetTransport.exe",
+                "Thunder.exe",
+                "Transmission.exe",
+                "uTorrent.exe",
+                "WebTorrent.exe",
+                "WebTorrent Helper.exe",
+                "qbittorrent.exe",
+                "Weiyun.exe",
+                "baidunetdisk.exe",
+                "DownloadService.exe"
+            ]
+        }
+    ]
+}
