@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "stock.hostmonit.com"
+            ],
+            "domain_suffix": [],
+            "domain_regex": [],
+            "domain_keyword": []
+        }
+    ]
+}
