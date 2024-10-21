@@ -17,13 +17,6 @@
 # SCRIPT 脚本
 # MATCH 全匹配
 
-
-# 镜像站
-DOMAIN-KEYWORD,mirror
-DOMAIN-KEYWORD,mirrors
-DOMAIN-KEYWORD,gitmirror
-DOMAIN-KEYWORD,ghproxy
-
 # Google
 DOMAIN,xn--ngstr-lra8j.com
 #DOMAIN-SUFFIX,googleapis.cn
