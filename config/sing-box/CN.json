@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 3,
     "rules": [
         {
             "domain": [
@@ -8,8 +8,6 @@
                 "ghp.ci"
             ],
             "domain_suffix": [
-                "linux.do",
-                "mtian.net",
                 "265.com",
                 "2mdn.net",
                 "alt1-mtalk.google.com",
