@@ -92,5 +92,5 @@ DOMAIN-SUFFIX,b.aivencloud.com
 DOMAIN,server.codeium.com
 
 # Forum
-DOMAIN-SUFFIX,linux.do
-DOMAIN-SUFFIX,nodeseek.com
+# DOMAIN-SUFFIX,linux.do
+# DOMAIN-SUFFIX,nodeseek.com
